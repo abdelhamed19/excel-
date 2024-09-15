@@ -1,0 +1,13 @@
+{
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "phpoffice/phpspreadsheet": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "app\\controllers\\":"app/controllers/",
+            "helpers\\":"helpers/"
+        }
+    }
+}

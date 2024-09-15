@@ -1,0 +1,14 @@
+CREATE TABLE categories(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    category varchar(255),
+    subcategory varchar(255)
+);
+
+CREATE TABLE products(
+    id int PRIMARY KEY AUTO_INCREMENT,
+    category_id int,
+    name varchar(255),
+    size varchar(255),
+    description varchar(255),
+    code varchar(255)
+);
