@@ -6,6 +6,17 @@ class Router{
     {
         $this->routes[$method][$route] = $action;
         return $this;
+    //     [
+    // 'GET' => [
+    //     '/home' => 'HomeController@index',
+    //     '/about' => [AboutController::class, 'show']
+    // ],
+    // 'POST' => [
+    //     '/login' => function() {
+    //         return 'Login Page';
+    //     }
+    // ]
+    //     ]
     }
     public function get($route, callable|array $action)
     {
